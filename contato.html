@@ -9,14 +9,16 @@
 </head>
 <body>
     <nav>
-        <img id="logo" src="imagens/Nissan-Logo-white.png" alt="Nissan" width="150">
+        <a href="index.html">
+            <img id="logo" src="imagens/Nissan-Logo-white.png" alt="Nissan" width="150">
+        </a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="produtos.html">Produtos</a></li>
             <li><a href="pedidos.html">Pedidos</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
-    </nav>
+    </nav>  
     <header>
         <h1>Nissan</h1>
         <p>67 99999-9999</p>
@@ -25,15 +27,15 @@
         <div id="corpoForm">
             <h2>Entre em contato</h2>
             <div class="campo">
-                <label>Nome: </label>
+                <label id="lab">Nome: </label>
                 <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required> <br>
             </div>
             <div class="campo">
-                <label>Telefone: </label>
+                <label id="lab">Telefone: </label>
                 <input type="tel" name="telefone" id="telefone" placeholder="Digite o seu telefone" required> <br>
             </div>
             <div class="campo">
-                <label>Email: </label>
+                <label id="lab">Email: </label>
                 <input type="email" name="email" id="email" placeholder="Digite o seu email" required> <br>
             </div>
             <input type="button" value="ENVIAR" class="botao">
