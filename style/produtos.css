@@ -1,0 +1,47 @@
+.veiculos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.veiculos img{
+    padding: 5px;
+    width: 360px;    
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.veiculo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(31, 31, 31, 0.7);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.veiculo p{
+    font-size: 14px;
+}
+
+.veiculo h4{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+
+.veiculo button{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(119, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.veiculo button:hover{
+    color: aliceblue;
+    background-color: rgb(119, 0, 0);
+}

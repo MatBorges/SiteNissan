@@ -2,20 +2,8 @@ html{
     background-color: rgb(0, 0, 0);
 }
 
-body{
-    height: 1250px;    
-    background-image: url(../imagens/nissan-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
-}
-
-img{
-    width: 400px;
-    padding: 30px;
-    border-radius: 40px;
+#logo{
+    width: 100px;
 }
 
 nav{
@@ -49,21 +37,14 @@ nav ul li a{
     text-decoration: none;
 }
 
-#logo{
-    width: 100px;
-}
-
-footer{
-    position: absolute;
-    text-align: center;
-    padding: 10px;
-    bottom: 0;
-    left: 0;  
-}
-
-footer a{
-    text-decoration: none;
-    color: aliceblue;    
+body{
+    height: 1500px;    
+    background-image: url(../imagens/nissan-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
 
 input{
@@ -130,44 +111,19 @@ div#corpoForm{
     background-attachment: fixed;  
 }
 
-#veiculos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#veiculos img{
-    padding: 5px;
-    width: 360px;    
-    border-radius: 30px;
-    background-size: cover;
-}
-
-#veiculo{
-    display: flex;
-    flex-direction: column;
+footer{
+    background-color: black;    
     text-align: center;
-    color: aliceblue;
-    background-color: rgba(31, 31, 31, 0.7);
-    margin: 10px;
-    border-radius: 5px;
-    padding: 20px;
-}
-#veiculo p{
-    font-size: 14px;
+    padding: 40px 0;      
 }
 
-#veiculo button{
-    background-color: aliceblue;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    color: rgb(119, 0, 0);
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
+footer a{
+    text-decoration: none;
+    color: aliceblue;    
 }
-#veiculo button:hover{
+
+footer p{
     color: aliceblue;
-    background-color: rgb(119, 0, 0);
+    font-size: 15px;
+    margin-top: 30px;
 }
