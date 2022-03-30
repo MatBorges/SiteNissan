@@ -29,6 +29,11 @@ nav ul li{
     width: 150px;
 }
 
+nav ul li:hover{    
+    transition: 0.5s all;
+    transform: scale(1.1);
+}
+
 nav ul li a{
     color: aliceblue;
     display: flex;

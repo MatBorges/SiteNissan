@@ -11,6 +11,12 @@
     background-size: cover;
 }
 
+.veiculo img:hover{
+    transition: 0.5s all;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .veiculo{
     display: flex;
     flex-direction: column;
@@ -43,5 +49,8 @@
 }
 .veiculo button:hover{
     color: aliceblue;
+    transition: 0.5s all;
     background-color: rgb(119, 0, 0);
+    cursor: pointer;
+    transform: scale(1.05);
 }
