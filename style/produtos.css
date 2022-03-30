@@ -37,7 +37,7 @@
     margin-bottom: 10px ;
 }
 
-.veiculo button{
+.btComprar{
     background-color: aliceblue;
     padding: 10px;
     border-radius: 5px;
@@ -46,10 +46,11 @@
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    width: 100%;   
 }
-.veiculo button:hover{
+.btComprar:hover{
     color: aliceblue;
-    transition: 0.5s all;
+    transition: 0.3s all;
     background-color: rgb(119, 0, 0);
     cursor: pointer;
     transform: scale(1.05);
